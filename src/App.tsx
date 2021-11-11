@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { SignIn } from "./screens/SignIn";
 import { Register } from "./screens/Register";
+import GlobalStyle from "./styles/GlobalStyle";
+
 function App() {
   return (
     <Router>
@@ -14,6 +16,7 @@ function App() {
           <Register />
         </Route>
       </Switch>
+      <GlobalStyle />
     </Router>
   );
 }
