@@ -10,12 +10,7 @@ export default createGlobalStyle`
     outline: 0;
   }
   html, body,#root{
-    height: 100%;
-    display: flex;
-    flex: 1;
     height: 100vh;
-    justify-content: center;
-    align-items: center;
   }
 
   :root{

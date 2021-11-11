@@ -18,7 +18,7 @@ export function SignIn() {
       <Link href="#">Esqueci a senha</Link>
       <ButtonPrimary type="submit" children="ENTRAR" />
       <Subtitle>Ou</Subtitle>
-      <LinkCadastro href="#">Cadastre-se</LinkCadastro>
+      <LinkCadastro href="/Register">Cadastre-se</LinkCadastro>
     </Container>
   );
 }
