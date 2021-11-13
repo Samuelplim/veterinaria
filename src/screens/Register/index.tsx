@@ -1,6 +1,5 @@
-import React from "react";
-import ButtonPrimary from "../../components/ButtonPrimary";
-import InputPrimary from "../../components/InputPrimary";
+import { ButtonPrimary } from "../../components/ButtonPrimary";
+import { InputPrimary } from "../../components/InputPrimary";
 
 import { Container, Title, Select } from "./styles";
 export function Register() {

@@ -7,6 +7,9 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   background-color: var(--background);
+  input {
+    margin-bottom: 12px;
+  }
 `;
 export const Img = styled.img`
   height: 200px;
