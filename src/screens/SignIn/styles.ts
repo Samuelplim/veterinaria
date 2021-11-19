@@ -6,35 +6,32 @@ export const Container = styled.div`
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background-color: var(--background);
   input {
-    margin-bottom: 12px;
+    margin-bottom: var(--Small-size);
+  }
+  p {
+    color: var(--primary);
+    margin-bottom: var(--Max-Size);
+    text-align: center;
+    font-size: var(--Max-Size);
+  }
+  button {
+    margin-bottom: var(--Medium-Size);
+  }
+  a {
+    color: var(--primary);
+    font-size: var(--Max-Size);
+    text-decoration: none;
   }
 `;
 export const Img = styled.img`
   height: 200px;
   width: auto;
-  margin-bottom: 40px;
-`;
-export const Title = styled.p`
-  color: var(--primary);
-  margin-bottom: 80px;
+  margin-bottom: var(--Max-Size);
 `;
 export const Link = styled.a`
   color: var(--text);
   font-size: 12px;
-  margin-bottom: 28px;
-  text-decoration: none;
-`;
-export const Subtitle = styled.p`
-  margin-top: 36px;
-  color: var(--text);
-  font-size: 12px;
-  margin-bottom: 20px;
-`;
-export const LinkCadastro = styled.a`
-  color: var(--primary);
-  font-size: 16px;
-  margin-bottom: 28px;
+  margin-bottom: var(--Max-Size);
   text-decoration: none;
 `;

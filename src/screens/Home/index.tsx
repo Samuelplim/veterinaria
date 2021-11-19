@@ -4,11 +4,7 @@ export function Home() {
   return (
     <Container>
       <Menu>
-        <p>
-          Hospital Veterinário
-          <br />
-          Estácio da Amazônia
-        </p>
+        <p>Hospital Veterinário Estácio da Amazônia</p>
         <h3>Início</h3>
       </Menu>
       <WrapperSearch>

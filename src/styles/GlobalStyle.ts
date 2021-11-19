@@ -10,10 +10,12 @@ export default createGlobalStyle`
     outline: 0;
   }
   html, body,#root{
+    background-color: var(--background);
     height: 100vh;
   }
 
   :root{
+    //Colors
     --primary: #2A2ABE;
     --secondary: #2B56C6;
     --tertiary: #0C9EF3;
@@ -24,5 +26,10 @@ export default createGlobalStyle`
 
 
     --background: #EDF1FA;
+
+    //font sizes & espaços sizes
+    --Max-Size:16px;
+    --Medium-Size:12px;
+    --Small-size:8px;
   }
 `;

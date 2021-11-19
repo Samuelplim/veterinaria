@@ -9,6 +9,8 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   background-color: var(--background);
+  p {
+  }
 `;
 export const Menu = styled.div`
   display: flex;
@@ -20,6 +22,9 @@ export const Menu = styled.div`
   background-color: var(--white);
   margin-bottom: 80px;
   font-size: 16px;
+  p {
+    text-align: center;
+  }
 `;
 export const WrapperSearch = styled.div`
   display: flex;
